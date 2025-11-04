@@ -1,0 +1,3 @@
+chrome_temp_*
+.env
+__pycache__
