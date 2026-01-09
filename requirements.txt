@@ -3,3 +3,4 @@ selenium==4.38.0
 tls-client==1.0.1
 requests==2.32.5
 python-dotenv==1.0.1
+httpx==0.28.1

@@ -1,0 +1,53 @@
+╔════════════════════════════════════════════════════════════════╗
+║ Discord Message Deleter - Guia Rápido v1.0                     ║
+╚════════════════════════════════════════════════════════════════╝
+
+INSTRUÇÕES SIMPLES (3 PASSOS - 5 MINUTOS):
+
+PASSO 1: Instale o Python (uma vez só)
+- Vá para: https://www.python.org/downloads/
+- Clique no botão amarelo “Download Python 3.12”.
+- Execute o instalador:
+   ☑ Marque “Add python.exe to PATH” (IMPORTANTE)
+   ▶ Clique em “Install Now”.
+- Aguarde a instalação (~2 minutos).
+- Feche e reabra o Explorador de Arquivos.
+
+PASSO 2: Instale Dependências (uma vez só)
+- Extraia este ZIP em uma pasta (exemplo: C:\DiscordMessageDeleter).
+- Dê duplo-clique em “install.bat”.
+- Aguarde a instalação (2 a 5 minutos).
+   > Necessário estar conectado à internet.
+- Caso apareça erro: verifique a conexão e rode novamente.
+
+PASSO 3: Execute o Programa (sempre)
+- Dê duplo-clique em “run.bat”.
+- Uma janela preta abrirá e iniciará o servidor local.
+- Após 5 segundos, o navegador abrirá automaticamente em:
+   🔗 http://localhost:8501
+- Use normalmente:
+   • Digite seu email e senha.
+   • Clique em “Fazer Login”.
+   • O programa obterá seu token, listará canais e DMs.
+   • Escolha canais/DMs e inicie a limpeza.
+   • O sistema buscará e excluirá TODAS as mensagens pessoais de DMs e Canais de Servidores selecionados pelo usuário.
+- Logs e progresso aparecerão na própria interface Streamlit.
+
+PARAR O PROGRAMA:
+- Feche a aba do navegador.
+
+DICAS:
+- A limpeza é completa (com paginação real): pode demorar em canais grandes.
+- Evite usar a conta em outro dispositivo durante a execução.
+- Funciona offline após o Passo 2.
+- Caso o Chrome não abra: verifique se o Google Chrome está instalado.
+- Execute os arquivos BAT como administrador se houver erro de permissão.
+- Mantenha todos os arquivos juntos (não renomeie).
+
+SUPORTE:
+📧 E-mail: matheusmschumacher@gmail.com
+
+OBRIGADO POR USAR O DISCORD MESSAGE DELETER!
+
+SE NAO FUNCIONAR O RUN.BAT crie atalho na area de trabalho com cmd /k "cd /d C:\Users\Username\Documents\Discord_Message_Deleter && python -m streamlit run app.py --server.port=8501 --server.headless=true"
+altere o caminho da pasta para refletir o caminho utilizado.
